@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.antoniopedro.medicomais.fragments.EscolhaMedicoFragment">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtNomeDaConsulta"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/styleButton"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="30dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvListMedicos"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:scrollbars="vertical"/>
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/btnDataConsulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calendar"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

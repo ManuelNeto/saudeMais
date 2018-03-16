@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.antoniopedro.medicomais.fragments.SintomasFragment">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/styleButton"
+        android:text="Sintomas"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edtSintomas"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#cc0d0d"/>
+
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            style="@style/styleButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:text="Marcar Consulta" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
